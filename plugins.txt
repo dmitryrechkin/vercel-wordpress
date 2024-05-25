@@ -1,0 +1,11 @@
+https://downloads.wordpress.org/plugin/tidb-compatibility.zip
+https://downloads.wordpress.org/plugin/woocommerce.zip
+https://downloads.wordpress.org/plugin/query-monitor.zip
+https://downloads.wordpress.org/plugin/wp-cloudsync-master.zip
+https://downloads.wordpress.org/plugin/wp-graphql.zip
+https://downloads.wordpress.org/plugin/cloudflare.zip
+https://downloads.wordpress.org/plugin/wp-mail-smtp.zip
+https://downloads.wordpress.org/plugin/gdpr-cookie-compliance.zip
+https://downloads.wordpress.org/plugin/disable-user-login.zip
+https://downloads.wordpress.org/plugin/temporary-login-without-password.zip
+https://downloads.wordpress.org/plugin/frontier-restrict-backend.zip

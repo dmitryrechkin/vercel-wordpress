@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "npm run setup:wordpress && npm run setup:plugins && npm run setup:mu-plugins && npm run setup:themes && npm run setup:config && npm run setup:clean-assets",
+    "setup:wordpress": "node scripts/setupWordpress.js",
+    "setup:plugins": "node scripts/setupPlugins.js",
+    "setup:mu-plugins": "node scripts/setupMuPlugins.js",
+    "setup:themes": "node scripts/setupThemes.js",
+    "setup:config": "node scripts/setupConfig.js",
+    "setup:clean-assets": "node scripts/cleanAssets.js"
+  },
+  "devDependencies": {
+    "adm-zip": "^0.5.12",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.2",
+    "unzipper": "^0.11.6"
+  }
+}

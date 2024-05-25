@@ -1,0 +1,14 @@
+# Ignore unminified JavaScript files - uncomment to enable
+#*.js
+#!*.min.js
+
+# Ignore unminified CSS files - uncomment to enable
+#*.css
+#!*.min.css
+
+# Ignore git and build folders
+.vercel
+.git
+wordpress/
+public/
+node_modules/

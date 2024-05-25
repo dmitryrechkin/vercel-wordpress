@@ -1,0 +1,28 @@
+{
+	"version": 2,
+
+	"outputDirectory": "wordpress",
+
+	"functions": {
+		"api/index.php": {
+			"runtime": "vercel-php@0.7.1",
+			"maxDuration": 60,
+			"memory": 1024
+		}
+	},
+
+	"routes": [
+		{
+			"src": "/(.*\\.js|.*\\.css|.*\\.jpg|.*\\.png|.*\\.gif|.*\\.ico|.*\\.svg|.*\\.eot|.*\\.ttf|.*\\.woff|.*\\.woff2|.*\\.html|.*\\.pdf)",
+			"dest": "/wordpress/$1",
+			"headers": {
+				"Cache-Control": "public, max-age=31536000, immutable"
+			},
+			"continue": false
+		},
+		{
+			"src": "/(.*)",
+			"dest": "/api/index.php"
+		}
+	]
+}

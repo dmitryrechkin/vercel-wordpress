@@ -1,0 +1,6 @@
+# Vercel
+.vercel
+wordpress
+public
+node_modules
+package-lock.json
